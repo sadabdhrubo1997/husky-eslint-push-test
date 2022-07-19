@@ -19,7 +19,7 @@
   },
   "scripts": {
     "https": "local-ssl-proxy --config proxy.json",
-    "dev": "PORT=4000 react-scripts start",
+    "dev": "set PORT=4000 && react-scripts start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
