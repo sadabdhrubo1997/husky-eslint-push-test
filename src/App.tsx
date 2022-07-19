@@ -1,5 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
+
+const Dhrubo = 'Dhrubo';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
+        <p>{Dhrubo}</p>
         <a
           className="App-link"
           href="https://reactjs.org"
